@@ -1,7 +1,17 @@
-language: csharp
-dist: trusty
-sudo: required
-mono: none
+language: csharp  
+sudo: required  
+dist: trusty  
 dotnet: 1.0.0-preview2-003121
-script:
-- ./build.sh --quiet verify
+env:  
+  - DOTNETCORE=1
+mono:  
+  - none
+os:  
+  - linux
+  - osx
+osx_image: xcode7.3  
+branches:  
+  only:
+    - master
+script:  
+- ./build.sh
