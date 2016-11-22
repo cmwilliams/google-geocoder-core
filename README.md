@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/cmwilliams/google-geocoder-core.svg?branch=master)](https://travis-ci.org/cmwilliams/google-geocoder-core)
+
 # Google Geocoder for .NET Core
 A simple wrapper for the Google geocoding service that's compatible with .NET Core. The library returns an instance of a Location class
 with the following properties: Latitude and Longitude. Default values for Latitude and Longitude is 0.
